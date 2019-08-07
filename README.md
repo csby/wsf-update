@@ -5,17 +5,17 @@ the service for wsf updating
 http serve on **127.0.0.1:9606** and accept **post** request
 
 ## function
-### update
+### 1. update
 ```
 {
-    actione: "*update",
+    actione: "update",
     name: "name of the service",
     path: "execute file path of service",
     updateFile: "new execute file path of service",
     updateFolder: "temp folder path of new execute file"
 }
 ```
-### restart
+### 2. restart
 ```
 {
     actione: "restart",
